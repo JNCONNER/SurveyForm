@@ -1,0 +1,63 @@
+<link rel="stylesheet" href="styles.css">
+<h1 id="title">Which Cereals Make The Top Of The List?</h1>
+<p id="description"> Please Take A Minute To Rate Your Favorite Cereals</p>
+
+<form id="survey-form">
+  <div class="input-element">
+ <label id="name-label">
+    Name
+ </label>
+   <input placeholder="name"id="name"type="text" required/>
+   </div>
+    <div class="input-element">
+ <label id="email-label">
+    Email
+ </label>
+   <input placeholder="email"
+   id="email" type="email" required/>
+   <input placeholder="age" id="number" min="5" max="100"
+   type="number" required/>
+   </div>
+    <div class="input-element">
+ <label id="number-label">
+   Whats Your Favorite Cereal
+ </label>
+   <select id="dropdown">
+     <option>Trix</option>
+     <option>Captain Crunch</option>
+     <option>Raisin Bran Crunch</option>
+   </select>
+   </div>
+   <div>
+     <label>Do You Eat Cereal Daily?
+  </label>
+     <div>
+     <label><input type="radio" name="cereal" value="yes"/>Yes</label>
+     </div>
+     <div>
+     <label> <input type="radio" name="cereal" value="no"/>No</label>
+     </div>
+</div>
+<div>
+     <label>How Much Do You Like Cereal</label>
+     <div>
+     <label><input type="checkbox" name="thoughts" value="eating"/>A Lot</label>
+     </div>
+     <div>
+     <label> <input type="checkbox" name="thoughts" value="taste"/>Somewhat</label>
+     </div>
+         <div> <label><input type="checkbox" name="thoughts" value="smell"/>A Little</label>
+     </div>
+         <div>
+         <label><input type="checkbox" name="thoughts" value="texture"/>Not At All</label>
+     </div>
+</div>
+<div class="input-element">
+  <label>Additional Comments</label>
+  <textarea type="text"></textarea>
+  </div>
+  <button type="submit" id="submit"> 
+    Submit
+  </button>
+
+ </form>
